@@ -20,7 +20,9 @@ cd ..
 rm -rf out/**/* || exit 0
 
 # copy jekyll pages to target repo
-cp -aR _site out/
+cp -aR _site/* out/
+# dont deploy keys to server
+rm out/deploykey* 
 
 # Now let's go have some fun with the cloned repo
 cd out
@@ -35,8 +37,7 @@ fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-git add .
-git commit -m "Deploy to GitHub Pages: ${SHA}"
+git commit -a -m "Deploy to GitHub Pages: ${SHA}"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
