@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-SOURCE_BRANCH="sources"
 TARGET_BRANCH="master"
 
 # Save some useful information
