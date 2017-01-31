@@ -18,5 +18,6 @@ deploy:
 
 env:
   global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
   - ENCRYPTION_LABEL: "16f9db21fba8"
   - COMMIT_AUTHOR_EMAIL: "samsel@dbis.rwth-aachen.de"
