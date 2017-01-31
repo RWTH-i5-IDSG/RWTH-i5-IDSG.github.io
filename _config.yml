@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Intelligent Distributed Systems Group @ Chair of Information Systems, RWTH Aachen University
+title: IDSG @ Information Systems, RWTH Aachen University
 #mail: samsel@dbis.rwth-aachen.de
 description: > # this means to ignore newlines until "baseurl:"
   An overview over ongoing and prevous projects.
