@@ -24,7 +24,7 @@ github_username:  RWTH-i5-IDSG
 
 # Build settings
 markdown: kramdown
-theme: minima 
+theme: minimal-mistakes-jekyll
 gems:
   - jekyll-feed
 exclude: [vendor, scripts, Gemfile, Gemfile.lock, deploy_key* ]
