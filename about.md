@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+The Intelligent Distributed Systems Group is currently working on challenging topics in the fields of
+ 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* Information Systems for Public Transportation, Electric Mobility, Indoor Navigation, Document Management, etc. 
+* Document Management Systems
+* Information and Knowledge Processing with Rule based Systems
+* Distributed Systems and Middleware, especially Service Oriented Computing, Agent Technology, System Configuration Management, etc.
+* Mobile Application Development, Gamification and Familiarization in UI Design
+  
+We are always offering HiWi positions, bachelor and master theses.
+   
+The IDSG led by Dr. Karl-Heinz Krempels is located in the B-IT area of the E2 building. 
+Feel free to visit us whenever the door is open.
