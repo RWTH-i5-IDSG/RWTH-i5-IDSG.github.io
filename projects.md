@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects 
-permalink: /Projects/
+permalink: /projects/
 ---
 2012-2014
 
