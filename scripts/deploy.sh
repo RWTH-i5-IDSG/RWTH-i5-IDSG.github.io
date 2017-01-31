@@ -17,7 +17,7 @@ git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
 # Clean out existing contents
-rm -rf out/**/* || exit 0
+#rm -rf out/**/* || exit 0
 
 # copy jekyll pages to target repo
 cp -aR _site/* out/
@@ -29,15 +29,16 @@ cd out
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-# If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if [ -z `git diff --exit-code` ]; then
-    echo "No changes to the output on this push; exiting."
-    exit 0
-fi
+#f there are no changes to the compiled out (e.g. this is a README update) then just bail.
+#if [ -z `git diff --exit-code` ]; then
+#    echo "No changes to the output on this push; exiting."
+#    exit 0
+#fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
 echo "Deploy to ${SSH_REPO}: commit ${SHA}"
+git add .
 git commit -a -m "Deploy to GitHub Pages: ${SHA}"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
