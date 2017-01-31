@@ -12,7 +12,8 @@ ruby RUBY_VERSION
 gem "jekyll", "3.4.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-theme-tactile"
+# gem "jekyll-theme-tactile"
+gem "minimal-mistakes-jekyll"
 gem "minima"
 gem "html-proofer"
 
