@@ -3,9 +3,8 @@ sudo: false
 rvm:
 - 2.3.3
 
-script: ./scripts/cibuild.sh
+script: ./scripts/cibuild.sh # build packages using jekyll
 
-# branch whitelist, only for GitHub Pages
 branches:
   only:
   - source     # deploy from sources branch only
@@ -13,10 +12,16 @@ branches:
 deploy:
   skip_cleanup: true
   provider: script 
-  script: scripts/deploy.sh
+  script: scripts/deploy.sh #deploy to gh pages repository
   on:
           branch: source
 
+notifications:
+  email:
+    recipients:
+      - samsel@dbis.rwth-aachen.de 
+    on_success: never # default: change
+    on_failure: always # default: always
 
 env:
   global:
