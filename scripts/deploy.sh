@@ -26,6 +26,9 @@ cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
+# Clean out existing contents
+rm -rf out/**/* || exit 0
+
 # copy jekyll pages to target repo
 cp -aR _site/* out/
 
