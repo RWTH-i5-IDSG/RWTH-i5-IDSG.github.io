@@ -27,7 +27,7 @@ markdown: kramdown
 theme: minimal-mistakes-jekyll
 gems:
   - jekyll-feed
-  - jekyl-archives
+  - jekyll-archives
 
 exclude: [vendor, scripts, Gemfile, Gemfile.lock, deploy_key* ]
 include: [_pages,_posts]
