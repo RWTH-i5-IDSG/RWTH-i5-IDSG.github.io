@@ -33,4 +33,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-destination: docs
