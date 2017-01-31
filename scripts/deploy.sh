@@ -21,6 +21,8 @@ rm -rf out/**/* || exit 0
 
 # copy jekyll pages to target repo
 cp -aR _site/* out/
+# prevent checkin of keys
+rm -rf _site/deploy_key*
 
 # Now let's go have some fun with the cloned repo
 cd out
