@@ -18,13 +18,54 @@ title: Intelligent Distributed Systems Group @ Chair of Information Systems, RWT
 description: > # this means to ignore newlines until "baseurl:"
   An overview over ongoing and prevous projects.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rwth-i5-idsg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: ""
 github_username:  RWTH-i5-IDSG
-
+repository: "RWTH-i5-IDSG/RWTH-i5-IDSG.github.io"
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
 gems:
   - jekyll-feed
+  - jekyl-archives
+
 exclude: [vendor, scripts, Gemfile, Gemfile.lock, deploy_key* ]
+include: [_pages,_posts]
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/

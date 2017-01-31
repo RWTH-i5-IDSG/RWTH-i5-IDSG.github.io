@@ -16,6 +16,7 @@ gem "jekyll", "3.4.0"
 gem "minimal-mistakes-jekyll"
 gem "minima"
 gem "html-proofer"
+gem 'jekyll-archives'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
