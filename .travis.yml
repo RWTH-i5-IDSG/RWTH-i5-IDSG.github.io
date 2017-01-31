@@ -1,0 +1,22 @@
+language: ruby
+sudo: false 
+rvm:
+- 2.3.3
+
+script: ./scripts/cibuild.sh
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - sources     # deploy from sources branch only
+
+deploy:
+  skip_cleanup: true
+  provider: script 
+  script: scripts/deploy.sh
+
+
+env:
+  global:
+  - ENCRYPTION_LABEL: "16f9db21fba8"
+  - COMMIT_AUTHOR_EMAIL: "samsel@dbis.rwth-aachen.de"
