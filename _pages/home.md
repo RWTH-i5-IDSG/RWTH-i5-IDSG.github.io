@@ -17,13 +17,13 @@ feature_row:
     excerpt: "Interface for X-Sharing Information documentation. A XML and Websocket-based interface standard to integrated sharing services into travel information."
     url: "/about/ixsi"
     btn_label: "Read more"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/feature-adapter.png
     alt: "xsharing-services-integrator"
     title: "X-Sharing Services Integrator"
     excerpt: "A sample implementation of IXSI."
     url: "https://github.com/RWTH-i5-IDSG/xsharing-services-integrator"
     btn_label: "Repository"
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/feature-router.png
     alt: "X-Sharing"
     title: "X-Sharing Router"
     excerpt: "A Addon for the X-Sharing Services Integrator which offers routing information for the integrated mobility services."
