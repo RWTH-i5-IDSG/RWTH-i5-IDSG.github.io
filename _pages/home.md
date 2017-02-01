@@ -34,8 +34,8 @@ feature_row_emobility:
     alt: "SteVe Screenshot"
     title: "SteVe"
     excerpt: "SteVe - Steckdosenverwaltung. A lean management system for electric charging stations using OCPP."
-    url: "https://github.com/RWTH-i5-IDSG/steve"
-    btn_label: "Repository"
+    url: "/about/steve"
+    btn_label: "Read more"
 ---
 
 {% include feature_row id="intro" type="center" %}
