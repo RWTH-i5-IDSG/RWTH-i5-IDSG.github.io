@@ -9,14 +9,14 @@ header:
   caption:
 excerpt: 'We are a research group working on ideas and projects for personal intermodal mobility and e-mobility.'
 intro:
-  - excerpt: 'Here are a few Repositories to have a look at:'
+  - excerpt: 'Here are a few repositories to have a look at:'
 feature_row:
   - image_path: /assets/images/feature-ixsi.png
     alt: "fully responsive"
     title: "IXSI"
     excerpt: "Interface for X-Sharing Information documentation. A XML and Websocket-based interface standard to integrated sharing services into travel information."
-    url: "https://github.com/RWTH-i5-IDSG/ixsi"
-    btn_label: "Repository"
+    url: "/about/ixsi"
+    btn_label: "Read more"
   - image_path: /assets/images/mm-free-feature.png
     alt: "xsharing-services-integrator"
     title: "X-Sharing Services Integrator"
