@@ -16,3 +16,5 @@ We are always offering HiWi positions, bachelor and master theses.
    
 The IDSG led by Dr. Karl-Heinz Krempels is located in the B-IT area of the E2 building. 
 Feel free to visit us whenever the door is open.
+
+
