@@ -4,3 +4,4 @@ _site/
 deploy_key
 deploy_key.pub
 Gemfile.lock
+Thumbs.db

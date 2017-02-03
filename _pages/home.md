@@ -36,8 +36,17 @@ feature_row_emobility:
     excerpt: "SteVe - Steckdosenverwaltung. A lean management system for electric charging stations using OCPP."
     url: "/about/steve"
     btn_label: "Read more"
+feature_row_bikesharing:
+  - image_path: /assets/images/feature-bikesharing.jpg
+    alt: "VeloCity pedelec station"
+    title: "BikeMan"
+    excerpt: "BikeMan - Bike Manager. A lean management and backend system for pedelec rental stations."
+    url: "/about/bikeman"
+    btn_label: "Read more"
+
 ---
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
 {% include feature_row id="feature_row_emobility" type="left" %}
+{% include feature_row id="feature_row_bikesharing" type="right" %}
