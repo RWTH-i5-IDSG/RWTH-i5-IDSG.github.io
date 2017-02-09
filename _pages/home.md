@@ -44,9 +44,18 @@ feature_row_bikesharing:
     url: "/about/bikeman"
     btn_label: "Read more"
 
+feature_row_ticketing:
+  - image_path: /assets/images/feature-bikesharing.jpg
+    alt: "BarTi Tickets"
+    title: "BarTi"
+    excerpt: "BarTi - Barcode Ticket Server. A web service to issue VDV-KA conforming 2D barcode tickets with a static validity."
+    url: "/about/ticketserver"
+    btn_label: "Read more"
+
 ---
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
 {% include feature_row id="feature_row_emobility" type="left" %}
 {% include feature_row id="feature_row_bikesharing" type="right" %}
+{% include feature_row id="feature_row_ticketing" type="left" %}

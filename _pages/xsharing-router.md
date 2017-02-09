@@ -7,6 +7,12 @@ sidebar:
     image: /assets/images/feature-router.png
     image_alt: "X-Sharing Router"
     text: ""
+header:
+  overlay_color: "#5e616c"
+  cta_label: "<i class='fa fa-download'></i> X-Sharing Router Github Repository"
+  cta_url: "https://github.com/RWTH-i5-IDSG/ticketserver"
+  caption:
+
 ---
 
 The X-Sharing Router extends the X-Sharing Services Integrator to allow intermodal routing using traditional public transport and sharing services like carsharing and pikesharing. Combined with both the Integrator and the IVU AG public transportation router it offers realistic intermodal itineraries, e.g. taking a bus to carsharing station and from there using the shared vehicle to the destination. It takes both real time public transportation information as well as real time sharing vehicles into consideration.

@@ -2,11 +2,13 @@
 title: About IXSI  
 permalink: /about/ixsi/
 author_profile: false
-sidebar:
-  - title: ""
-    image: /assets/images/feature-ixsi.png
-    image_alt: "IXSI"
-    text: ""
+
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/splash-ixsi.png
+  cta_label: "<i class='fa fa-download'></i> IXSI Github Repository"
+  cta_url: "https://github.com/RWTH-i5-IDSG/ixsi"
+  caption:
 ---
 
 [![Build Status](https://travis-ci.org/RWTH-i5-IDSG/ixsi.svg)](https://travis-ci.org/RWTH-i5-IDSG/ixsi)
@@ -14,35 +16,20 @@ sidebar:
 
 
 IXSI is a interface for exchanging information  between a Travel Information System and a Ride Sharing System (Carsharing, Bikesharing).
-This repository contains the documentation written in TeX. To generate the pdf:
 
-``` 
-git clone https://github.com/RWTH-i5-IDSG/ixsi.git
-cd ixsi
-xml/generate-tex-from-schema.sh
-make
-``` 
+IXSI is currently still under development and the API is not final.
 
-a recent TexLive version is recommended for building.
+precompiled pdfs are available under (automatically generated):
 
-to automatically update the generated part on pull/merge or checkout you can add the respective script as a local hook:
 
-```
-echo "`git rev-parse --git-dir`/../xml/generate-tex-from-schema.sh" >> .git/hooks/post-checkout
-echo "`git rev-parse --git-dir`/../xml/generate-tex-from-schema.sh" >> .git/hooks/post-merge
-chmod +x .git/hooks/post-{checkout,merge}
-```
-IXSI is currently still under development and the API is not final. 
+[https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect.pdf](https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect.pdf) (German version)
 
-precompiled pdfs are available under (automatically generated): 
+[https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect-english-version.pdf](https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect-english-version.pdf) (English version)
 
-https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect.pdf (german version)
 
-https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect-english-version.pdf (english version)
+The respective XML schema is available: [https://github.com/RWTH-i5-IDSG/ixsi/blob/econnect/xml/IXSI.xsd](https://github.com/RWTH-i5-IDSG/ixsi/blob/econnect/xml/IXSI.xsd).
 
-The respective XML schema is available under:
-
-https://github.com/RWTH-i5-IDSG/ixsi/blob/econnect/xml/IXSI.xsd
+The repository contains the documentation written in TeX as well as the respective schemas for the different version.
 
 IXSI was initially developed for eConnect Germany, Hub Osnabrück by
 
@@ -53,13 +40,11 @@ RWTH Aachen
 
 
 ## Mobility Broker 
-The branch `mobilitybroker` contains non standard additions developed in project Mobility Broker. More Information about Mobility Broker is available: http://mobility-broker.com/ (in german)
+The branch `mobilitybroker` contains non standard additions developed in project Mobility Broker. More Information about Mobility Broker is available: [http://mobility-broker.com/](http://mobility-broker.com/) (in german).
 
-precompiled pdf:
-https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-mobilitybroker.pdf
+[https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-mobilitybroker.pdf](https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-mobilitybroker.pdf) (Mobilitybroker Schnittstelle basierend auf IXSI, German)
 
-The respective XML schema for branch `mobilitybroker` is available under:
-https://github.com/RWTH-i5-IDSG/ixsi/blob/mobilitybroker/xml/IXSI.xsd
+The respective XML schema for branch `mobilitybroker` is available: [https://github.com/RWTH-i5-IDSG/ixsi/blob/mobilitybroker/xml/IXSI.xsd](https://github.com/RWTH-i5-IDSG/ixsi/blob/mobilitybroker/xml/IXSI.xsd).
 
 
 
