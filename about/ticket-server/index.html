@@ -13,7 +13,7 @@
 
 
 
-<title>About IXSI  IDSG @ Information Systems, RWTH Aachen University</title>
+<title>About BarTi - Barcode Ticket Generator  IDSG @ Information Systems, RWTH Aachen University</title>
 
 
 
@@ -25,21 +25,19 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="IDSG @ Information Systems, RWTH Aachen University">
-<meta property="og:title" content="About IXSI">
+<meta property="og:title" content="About BarTi - Barcode Ticket Generator">
 
 
-  <link rel="canonical" href="https://rwth-i5-idsg.github.io/about/ixsi/">
-  <meta property="og:url" content="https://rwth-i5-idsg.github.io/about/ixsi/">
-
-
-
+  <link rel="canonical" href="https://rwth-i5-idsg.github.io/about/ticket-server/">
+  <meta property="og:url" content="https://rwth-i5-idsg.github.io/about/ticket-server/">
 
 
 
 
 
 
-  <meta property="og:image" content="https://rwth-i5-idsg.github.io/assets/images/splash-ixsi.png">
+
+
 
 
 
@@ -119,20 +117,20 @@
 
 
 <div class="page__hero--overlay"
-  style="background-color: #5e616c; background-image: url('https://rwth-i5-idsg.github.io/assets/images/splash-ixsi.png');"
+  style="background-color: #5e616c; "
 >
   
     <div class="wrapper">
       <h1 class="page__title" itemprop="headline">
         
-          About IXSI
+          About BarTi - Barcode Ticket Generator
 
         
       </h1>
       
       
       
-        <p><a href="https://github.com/RWTH-i5-IDSG/ixsi" class="btn btn--light-outline btn--large"><i class='fa fa-download'></i> IXSI Github Repository</a></p>
+        <p><a href="https://github.com/RWTH-i5-IDSG/ticketserver" class="btn btn--light-outline btn--large"><i class='fa fa-download'></i> BarTi Github Repository</a></p>
       
     </div>
   
@@ -145,9 +143,28 @@
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+  
+    
+      
+        <img src=
+        
+          "https://rwth-i5-idsg.github.io/assets/images/feature-router.png"
+        
+        alt="BarTi">
+      
+      <h3></h3>
+      
+
+    
+    
+  
+  </div>
+
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="About IXSI">
+    <meta itemprop="headline" content="About BarTi - Barcode Ticket Generator">
     
     
     
@@ -156,34 +173,9 @@
       
 
       <section class="page__content" itemprop="text">
-        <p><a href="https://travis-ci.org/RWTH-i5-IDSG/ixsi"><img src="https://travis-ci.org/RWTH-i5-IDSG/ixsi.svg" alt="Build Status" /></a></p>
+        <p>BarTi allows the issuing of VDV-KA conforming 2D barcode tickets with a static validity. A to the system connected VDV-KA secure access module (SAM), which comes as smartcard, is required. To create the ticket, BarTi offers a RESTful interface accepting the required ticket parameters and returning a signed ticket as picture file, which can be used in e.g., mobile applications.</p>
 
-<p>IXSI is a interface for exchanging information  between a Travel Information System and a Ride Sharing System (Carsharing, Bikesharing).</p>
-
-<p>IXSI is currently still under development and the API is not final.</p>
-
-<p>precompiled pdfs are available under (automatically generated):</p>
-
-<p><a href="https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect.pdf">https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect.pdf</a> (German version)</p>
-
-<p><a href="https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect-english-version.pdf">https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect-english-version.pdf</a> (English version)</p>
-
-<p>The respective XML schema is available: <a href="https://github.com/RWTH-i5-IDSG/ixsi/blob/econnect/xml/IXSI.xsd">https://github.com/RWTH-i5-IDSG/ixsi/blob/econnect/xml/IXSI.xsd</a>.</p>
-
-<p>The repository contains the documentation written in TeX as well as the respective schemas for the different version.</p>
-
-<p>IXSI was initially developed for eConnect Germany, Hub Osnabrück by</p>
-
-<p>cantamen GmbH,
-HaCon Ing.-Ges. mbH,
-RWTH Aachen</p>
-
-<h2 id="mobility-broker">Mobility Broker</h2>
-<p>The branch <code class="highlighter-rouge">mobilitybroker</code> contains non standard additions developed in project Mobility Broker. More Information about Mobility Broker is available: <a href="http://mobility-broker.com/">http://mobility-broker.com/</a> (in german).</p>
-
-<p><a href="https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-mobilitybroker.pdf">https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-mobilitybroker.pdf</a> (Mobilitybroker Schnittstelle basierend auf IXSI, German)</p>
-
-<p>The respective XML schema for branch <code class="highlighter-rouge">mobilitybroker</code> is available: <a href="https://github.com/RWTH-i5-IDSG/ixsi/blob/mobilitybroker/xml/IXSI.xsd">https://github.com/RWTH-i5-IDSG/ixsi/blob/mobilitybroker/xml/IXSI.xsd</a>.</p>
+<p>As VDV-KA is primarly used in Germany, the documentation of BarTi is German.</p>
 
 
         
