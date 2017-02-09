@@ -26,9 +26,9 @@ feature_row:
   - image_path: /assets/images/feature-router.png
     alt: "X-Sharing"
     title: "X-Sharing Router"
-    excerpt: "A Addon for the X-Sharing Services Integrator which offers routing information for the integrated mobility services."
-    url: "https://github.com/RWTH-i5-IDSG/xsharing-router"
-    btn_label: "Repository"
+    excerpt: "An add-on for the X-Sharing Services Integrator which offers routing information for the integrated mobility services."
+    url: "/about/xsharing-router"
+    btn_label: "Read more"
 feature_row_emobility:
   - image_path: /assets/images/feature-steve.png
     alt: "SteVe Screenshot"
