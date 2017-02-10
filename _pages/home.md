@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fa fa-download'></i> Visit our Github Repository"
   cta_url: "https://github.com/RWTH-i5-IDSG"
   caption:
-excerpt: 'We are a research group working on ideas and projects for personal intermodal mobility and e-mobility.'
+  excerpt: 'We are a research group working on ideas and projects for personal intermodal mobility and e-mobility.'
 intro:
   - excerpt: 'Here are a few software projects to have a look at:'
 feature_row:

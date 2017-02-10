@@ -1,7 +1,18 @@
-main:
-  - title: "About"
-    url: /about
-  - title: "Projects"
-    url: /projects/
-  - title: "Publications"
-    url: /publications/
+docs:
+  - title: Mobility Broker
+    children:
+      - title: "Software: IXSI, Bikeman"
+        url: /softwareprojects/
+      - title: "Period: 2014 - 2016"
+        url: /researchprojects/#
+      - title: "Holder: RWTH Aachen"
+        url: http://www.rwth-aachen.de
+
+  - title: eConnect Germany
+    children:
+      - title: "Software: IXSI, SteVe"
+        url: /softwareprojects/
+      - title: "Period: 2012 - 2014"
+        url: /researchprojects/#
+      - title: "Holder: RWTH Aachen"
+        url: http://www.rwth-aachen.de
