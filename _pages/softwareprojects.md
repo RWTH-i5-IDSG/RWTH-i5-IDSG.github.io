@@ -40,7 +40,7 @@ SteVe (abbr. for **Ste**ckdosen **Ve**rwaltung, engl.: socket administration) ma
 Steve supports RFID-Cards for authentification processes between customers and charging stations.
 The communication protocol has been implemented using OCPP (Open Charge Point Protocol).
 It is a Web application designed to run under Apache Tomcat and consists of multiple Java servlets. 
-It uses the Apache [CXF framework]("http://cxf.apache.org/") for creating and receiving SOAP messages.
+It uses the Apache [CXF framework](http://cxf.apache.org/) for creating and receiving SOAP messages.
 Moreover, CXF supports Web Services Addressing.
 SteVe was tested successfully in operation.
 ![SteVe](../assets/images/steve.png){:class="img-responsive, pull-right"}
