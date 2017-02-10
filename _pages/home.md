@@ -25,7 +25,7 @@ feature_row:
     btn_label: "Read more"
   - image_path: /assets/images/feature-router.png
     alt: "X-Sharing"
-    title: "X-Sharing Router"
+    title: "X-Sharing Services Router"
     excerpt: "An add-on for the X-Sharing Services Integrator which offers routing information for the integrated mobility services."
     url: "/about/xsharing-services-router"
     btn_label: "Read more"
