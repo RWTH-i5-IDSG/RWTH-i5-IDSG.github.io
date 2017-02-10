@@ -22,7 +22,7 @@ feature_row:
     title: "X-Sharing Services Integrator"
     excerpt: "A sample implementation of IXSI."
     url: "/about/xsharing-services-integrator"
-    btn_label: "Repository"
+    btn_label: "Read more"
   - image_path: /assets/images/feature-router.png
     alt: "X-Sharing"
     title: "X-Sharing Router"
