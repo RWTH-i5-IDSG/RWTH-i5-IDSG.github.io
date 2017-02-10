@@ -15,9 +15,9 @@ header:
 
 ---
 
-BarTi allows the issuing of VDV-KA conforming 2D barcode tickets with a static validity. A to the system connected VDV-KA secure access module (SAM), which comes as smartcard, is required. To create the ticket, BarTi offers a RESTful interface accepting the required ticket parameters and returning a signed ticket as picture file, which can be used in e.g., mobile applications.
+BarTi allows the issuing of VDV-KA conforming 2D barcode tickets with a static validity. A VDV-KA secure access module (SAM), which comes as a smartcard, is required to be connected to the system. To create the ticket, BarTi offers a RESTful interface accepting the required ticket parameters and returning a signed ticket as picture file, which can be used in e.g., mobile applications.
 
-As VDV-KA is primarly used in Germany, the documentation of BarTi is German.
+As VDV-KA is primarly used in Germany, the documentation of BarTi is in German.
 
 
 
