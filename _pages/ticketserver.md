@@ -4,7 +4,7 @@ permalink: /about/ticketserver/
 author_profile: false
 sidebar:
   - title: ""
-    image: /assets/images/feature-router.png
+    image: /assets/images/feature-barti.png
     image_alt: "BarTi"
     text: ""
 header:
