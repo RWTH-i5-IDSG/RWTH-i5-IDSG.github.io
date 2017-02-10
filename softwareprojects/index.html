@@ -69,76 +69,73 @@
 
 
 	
-  
-
-
-
-
-
-
-
-<div class="page__hero--overlay"
-  style="background-color: #5e616c; "
->
-  
-    <div class="wrapper">
-      <h1 class="page__title" itemprop="headline">
-        
-          About X-Sharing Services Integrator
-
-        
-      </h1>
-      
-      
-      
-        <p><a href="https://github.com/RWTH-i5-IDSG/xsharing-services-integrator" class="btn btn--light-outline btn--large"><i class='fa fa-download'></i> X-Sharing Services Integrator Github Repository</a></p>
-      
-    </div>
-  
-  
-</div>
-
-
 
 
 
 <div id="main" role="main">
   
-  <div class="sidebar sticky">
-  
-  
-    
-      
-        <img src=
-        
-          "https://rwth-i5-idsg.github.io/assets/images/feature-adapter.png"
-        
-        alt="X-Sharing Services Integrator">
-      
-      <h3></h3>
-      
-
-    
-    
-  
-  </div>
-
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="About X-Sharing Services Integrator">
+    
     
     
     
 
     <div class="page__inner-wrap">
       
+        <header>
+          
+          
+        </header>
+      
 
       <section class="page__content" itemprop="text">
-        <p>The X-Sharing Services Integrator (formerly known as Mobility Broker Adapter) implements the Interface for X-Sharing Information (<a href="/about/ixsi">IXSI</a>).
-In a travel information system, it serves as the only communication point with car- and bikesharing services.
-Collecting station and vehicle information, tracking of their availability updates are some of its responsibilities.
-It is therefore the mediator between x-sharing services and remote components of the travel information system (the communication with the latter is achieved via RESTful interfaces) about such information and operations related to booking of vehicles.</p>
+        
+<div class="row">
 
+  <h1 id="ixsi-">IXSI <img src="/assets/images/RWTH.png" alt="RWTH" class="img-responsive, pull-right" /></h1>
+  <p>Aim of this interface specification is the information exchange of information systems for rentals vehicles with travel information systems.
+The reason for the information exchange is the requirement of creating intermodal travel chains combining rental services and public transport.
+IXSI defines an asynchronous or synchronous data exchange of station information, vehicle information, availabilities, bookings and prices.
+Therefore IXSI defines:</p>
+  <ul>
+    <li>A Role Model</li>
+    <li>A Service hierarchy of different qualities of information exchange</li>
+    <li>Interaction sequences to explain the order of messages between the partners based on the different service levels</li>
+    <li>The data model</li>
+    <li>Recommendations for the use of specific technologies for the data exchange and parsing</li>
+    <li>Tables of allowed values for enumerations
+<img src="/assets/images/ixsi.jpg" alt="IXSI" class="img-responsive, pull-right" /></li>
+  </ul>
+
+</div>
+<hr />
+<div class="row">
+
+  <h1 id="bikeman-">Bikeman <img src="../assets/images/RWTH.png" alt="RWTH" class="img-responsive, pull-right" /></h1>
+  <p>Bikeman is a CMS (abbr.: Center Management System) and implements a protocol.
+The protocol is designed to be implemented as a RESTful Webservice with
+HTTP as the underlying data transfer protocol. The resources are represented
+in JSON data format.
+We require that all communications are done encrypted, e.g. using SSL/TLS
+or VPN.	
+<img src="/assets/images/feature-bikesharing.jpg" alt="Bikeman" class="img-responsive, pull-right" /></p>
+
+</div>
+<hr />
+<div class="row">
+
+  <h1 id="steve-">SteVe <img src="/assets/images/RWTH.png" alt="RWTH" class="img-responsive, pull-right" /></h1>
+  <p>SteVe (abbr. for <strong>Ste</strong>ckdosen <strong>Ve</strong>rwaltung, engl.: socket administration) manages customer and charging station data.
+Steve supports RFID-Cards for authentification processes between customers and charging stations.
+The communication protocol has been implemented using OCPP (Open Charge Point Protocol).
+It is a Web application designed to run under Apache Tomcat and consists of multiple Java servlets. 
+It uses the Apache <a href="http://cxf.apache.org/">CXF framework</a> for creating and receiving SOAP messages.
+Moreover, CXF supports Web Services Addressing.
+SteVe was tested successfully in operation.
+<img src="../assets/images/steve.png" alt="SteVe" class="img-responsive, pull-right" /></p>
+
+</div>
 
         
       </section>
