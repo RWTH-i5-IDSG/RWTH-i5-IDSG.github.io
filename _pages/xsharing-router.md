@@ -1,5 +1,5 @@
 ---
-title: About X-Sharing Router  
+title: About X-Sharing Services Router  
 permalink: /about/xsharing-services-router/
 author_profile: false
 sidebar:
@@ -15,8 +15,8 @@ header:
 
 ---
 
-The X-Sharing Services Router extends the X-Sharing Services Integrator to allow intermodal routing using traditional public transport and sharing services like carsharing and pikesharing. Combined with both the Integrator and the IVU AG public transportation router it offers realistic intermodal itineraries, e.g. taking a bus to carsharing station and from there using the shared vehicle to the destination. It takes both real time public transportation information as well as real time sharing vehicles into consideration.
+The X-Sharing Services Router extends the [X-Sharing Services Integrator](https://github.com/RWTH-i5-IDSG/xsharing-services-integrator) to allow intermodal routing using traditional public transport and sharing services like car- and bikesharing. Combined with both the Integrator and the IVU AG public transportation router, it offers realistic intermodal itineraries, e.g. taking a bus to carsharing station and from there using the shared vehicle to the destination. It takes both real time public transportation information as well as real time sharing vehicles into consideration.
 
-The Router offers low latency interfaces based on Java Messaging Services (JMS) and is built as Wildfly Application. As Database backend PostgreSQL is required.
+The Router is built as a Java EE (web) application and offers low latency interfaces based on Java Messaging Services (JMS). PostgreSQL is required as database backend.
 
 
