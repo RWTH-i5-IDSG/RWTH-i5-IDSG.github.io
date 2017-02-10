@@ -9,7 +9,7 @@ header:
   caption:
 excerpt: 'We are a research group working on ideas and projects for personal intermodal mobility and e-mobility.'
 intro:
-  - excerpt: 'Here are a few repositories to have a look at:'
+  - excerpt: 'Here are a few software projects to have a look at:'
 feature_row:
   - image_path: /assets/images/feature-ixsi.png
     alt: "fully responsive"
