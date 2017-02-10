@@ -17,4 +17,10 @@ We are always offering HiWi positions, bachelor and master theses.
 The IDSG led by Dr. Karl-Heinz Krempels is located in the B-IT area of the E2 building. 
 Feel free to visit us whenever the door is open.
 
+Contact:
 
+Dr. Karl-Heinz Krempels
+RWTH Aachen Informatik 5
+Ahornstr. 55
+D-52056 Aachen
+Tel +49/241/8021502
