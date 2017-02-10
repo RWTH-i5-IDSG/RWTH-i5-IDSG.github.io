@@ -1,6 +1,6 @@
 ---
 title: About BarTi - Barcode Ticket Generator  
-permalink: /about/ticket-server/
+permalink: /about/ticketserver/
 author_profile: false
 sidebar:
   - title: ""
