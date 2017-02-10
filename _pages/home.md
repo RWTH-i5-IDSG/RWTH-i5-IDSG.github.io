@@ -21,13 +21,13 @@ feature_row:
     alt: "xsharing-services-integrator"
     title: "X-Sharing Services Integrator"
     excerpt: "A sample implementation of IXSI."
-    url: "https://github.com/RWTH-i5-IDSG/xsharing-services-integrator"
+    url: "/about/xsharing-services-integrator"
     btn_label: "Repository"
   - image_path: /assets/images/feature-router.png
     alt: "X-Sharing"
     title: "X-Sharing Router"
     excerpt: "An add-on for the X-Sharing Services Integrator which offers routing information for the integrated mobility services."
-    url: "/about/xsharing-router"
+    url: "/about/xsharing-services-router"
     btn_label: "Read more"
 feature_row_emobility:
   - image_path: /assets/images/feature-steve.png

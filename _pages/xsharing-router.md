@@ -1,6 +1,6 @@
 ---
 title: About X-Sharing Router  
-permalink: /about/xsharing-router/
+permalink: /about/xsharing-services-router/
 author_profile: false
 sidebar:
   - title: ""
