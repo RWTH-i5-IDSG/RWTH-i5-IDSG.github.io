@@ -2,3 +2,6 @@
 title: 'Projects  IDSG @ Information Systems, RWTH Aachen University'
 description: 'An overview over ongoing and prevous projects.'
 base_url: 'https://rwth-i5-idsg.github.io/'
+
+# Development Settings
+# base_url: 'http://localhost:4000/'
