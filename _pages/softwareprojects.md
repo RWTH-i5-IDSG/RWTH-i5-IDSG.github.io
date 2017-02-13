@@ -23,7 +23,7 @@ Therefore IXSI defines:
 <div class="row">
 
 # Bikeman ![RWTH](../assets/images/RWTH.png){:class="img-responsive, pull-right" :alt="RWTH Aachen"}
-Bikeman is a CMS (abbr.: Center Management System) and implements a protocol.
+Bikeman is a CMS (abbr.: Central Management System) and implements a protocol.
 The protocol is designed to be implemented as a RESTful Webservice with
 HTTP as the underlying data transfer protocol. The resources are represented
 in JSON data format.
