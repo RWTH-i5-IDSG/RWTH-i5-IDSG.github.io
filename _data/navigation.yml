@@ -1,4 +1,4 @@
-docs:
+research:
   - title: Mobility Broker
     children:
       - title: "Software: IXSI, Bikeman"
@@ -14,5 +14,31 @@ docs:
         url: /softwareprojects/
       - title: "Period: 2012 - 2014"
         url: /researchprojects/#
+      - title: "Holder: RWTH Aachen"
+        url: http://www.rwth-aachen.de
+
+software:
+  - title: Bikeman
+    children:
+      - title: "Research: Mobility Broker"
+        url: /researchprojects/
+      - title: "Period: 2014 - 2016"
+        url: /softwareprojects/#
+      - title: "Holder: RWTH Aachen"
+        url: http://www.rwth-aachen.de
+  - title: IXSI
+    children:
+      - title: "Research: Mobility Broker, eConnect Germany"
+        url: /researchprojects/
+      - title: "Period: 2012 - 2016"
+        url: /softwareprojects/#
+      - title: "Holder: RWTH Aachen"
+        url: http://www.rwth-aachen.de
+  - title: SteVe
+    children:
+      - title: "Research: Mobility Broker, eConnect Germany"
+        url: /researchprojects/
+      - title: "Period: 2012 - 2016"
+        url: /softwareprojects/#
       - title: "Holder: RWTH Aachen"
         url: http://www.rwth-aachen.de

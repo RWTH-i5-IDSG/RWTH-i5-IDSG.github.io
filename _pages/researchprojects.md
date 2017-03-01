@@ -1,7 +1,7 @@
 ---
 permalink: /researchprojects/
 sidebar:
-  nav: "docs"
+  nav: "research"
 ---
 
 {% for researchProject in site.pages %}

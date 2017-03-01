@@ -1,5 +1,7 @@
 ---
 permalink: /softwareprojects/
+sidebar:
+  nav: "software"
 ---
 
 {% for softwareProject in site.pages %}

@@ -8,9 +8,9 @@ tags:
   - SteVe
   - RWTH
 ---
-{% include base_path %}
 
-![Mobility Broker]({{ base_path }}/assets/images/mobro.svg){:class="img-responsive" :alt="Mobility Broker"}
+![{{ page.title }}](../assets/images/mobro.svg){:class="img-responsive" :alt="{{ page.title }}"}
+
 Aim of the project Mobility Broker was a unifom junction of mobility offers.
 Mobility Broker mediates unimodal and intermodal mobility offers based upon the preference of a customer (e.g. travel-time, price, means of transport, etc.).
 The front-end of the project is a mobile application, which allows customers to find a appropriate mobility offer.
