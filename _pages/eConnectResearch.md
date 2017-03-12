@@ -1,11 +1,9 @@
 ---
-layout: project
 title:  "eConnect Germany"
 period: 2012 - 2014
 categories: Research
-tags:
-  - IXSI
-  - SteVe
+software: [IXSI, SteVe]
+holder: RWTH
 ---
 
 ![{{ page.title }}](../assets/images/econnect.jpg){:class="img-responsive" :alt="{{ page.title }}"}

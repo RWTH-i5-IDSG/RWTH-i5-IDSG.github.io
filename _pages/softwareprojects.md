@@ -1,5 +1,6 @@
 ---
 permalink: /softwareprojects/
+layout: softwareproject
 sidebar:
   nav: "software"
 ---

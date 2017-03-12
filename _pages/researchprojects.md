@@ -1,5 +1,6 @@
 ---
 permalink: /researchprojects/
+layout: researchproject
 sidebar:
   nav: "research"
 ---

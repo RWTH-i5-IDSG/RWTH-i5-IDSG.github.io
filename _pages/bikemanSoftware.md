@@ -1,11 +1,8 @@
 ---
-layout: project
 title: "Bikeman"
 period: 2014 - 2016
 categories: Software
-tags:
-  - Software
-  - MoBro
+research: [Mobility Broker]
 holder: RWTH
 ---
 

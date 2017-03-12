@@ -1,0 +1,36 @@
+{% include header.html %}
+<div class="lead col">
+<div id="main" role="main">
+	<div class="sidebar sticky">
+		<nav class="nav__list">
+		  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+		  <label for="ac-toc">Toggle Menu</label>
+		  <ul class="nav__items">
+			{% for researchProject in site.pages %}
+				{% if researchProject.categories == "Research" %}
+					<li>
+						<span class="nav__sub-title">{{ researchProject.title }}</span>
+						<ul>
+							<li><a href="http://localhost:4000/softwareprojects/" class="">Research: 
+								{% for softwareProject in researchProject.software %}
+									<br> - {{ softwareProject }}
+								{% endfor %}  
+							</a></li>
+							<li>Period: {{ researchProject.period }}</a></li>
+							<li>Holder: {{ researchProject.holder }}</a></li>          
+						</ul>
+					</li>
+				{% endif %}
+			{% endfor %}  
+		  </ul>
+		</nav>  
+	</div>
+	<article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+		<div class="page__inner-wrap">
+			<section class="page__content" itemprop="text">
+				{{ content }}
+			</section>
+		</div>
+	</article>
+</div>
+{% include footer.html %}

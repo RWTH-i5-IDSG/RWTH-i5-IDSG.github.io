@@ -1,12 +1,9 @@
 ---
-layout: project
 title: "Mobility Broker"
 period: 2014 - 2016
 categories: Research
-tags:
-  - IXSI
-  - SteVe
-  - RWTH
+software: [IXSI, Bikeman]
+holder: RWTH
 ---
 
 ![{{ page.title }}](../assets/images/mobro.svg){:class="img-responsive" :alt="{{ page.title }}"}

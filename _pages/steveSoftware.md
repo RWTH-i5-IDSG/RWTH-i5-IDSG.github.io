@@ -2,9 +2,7 @@
 title: "Steckdosen Verwaltung"
 period: 2014 - 2016
 categories: Software
-tags:
-  - Software
-  - eConnect
+research: [eConnect]
 holder: RWTH
 ---
 

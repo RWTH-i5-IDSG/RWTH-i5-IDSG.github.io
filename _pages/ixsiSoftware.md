@@ -1,11 +1,8 @@
 ---
-layout: project
 title: "IXSI"
 period: 2014 - 2016
 categories: Software
-tags:
-  - MoBro
-  - eConnect
+research: [Mobility Broker, eConnect]
 holder: RWTH
 ---
 
