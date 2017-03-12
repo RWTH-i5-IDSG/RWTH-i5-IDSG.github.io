@@ -6,7 +6,8 @@
 		  <input id="ac-toc" name="accordion-toc" type="checkbox" />
 		  <label for="ac-toc">Toggle Menu</label>
 		  <ul class="nav__items">
-			{% for researchProject in site.pages %}
+		  {% assign jekyllPages = site.pages | sort: 'period' | reverse %}
+			{% for researchProject in jekyllPages %}
 				{% if researchProject.categories == "Research" %}
 					<li>
 						<span class="nav__sub-title">{{ researchProject.title }}</span>
