@@ -113,23 +113,6 @@
 			
 				
 					<li>
-						<span class="nav__sub-title">About IXSI</span>
-						<ul>
-							<li><a href="http://localhost:4000/researchprojects/" class="">Research: 
-								
-									<br> - Mobility Broker
-								
-									<br> - eConnect
-								  
-							</a></li>
-							<li>Period: 2014 - 2016</a></li>
-							<li>Holder: RWTH</a></li>          
-						</ul>
-					</li>
-				
-			
-				
-					<li>
 						<span class="nav__sub-title">Bikeman</span>
 						<ul>
 							<li><a href="http://localhost:4000/researchprojects/" class="">Research: 
@@ -170,6 +153,8 @@
 				
 			
 				
+			
+				
 			  
 		  </ul>
 		</nav>  
@@ -179,139 +164,60 @@
 			<section class="page__content" itemprop="text">
 				
 <div class="row">
-		---
-title: "Bikeman"
-period: 2014 - 2016
-categories: Software
-research: [Mobility Broker]
-holder: RWTH
----
+		<p><img src="../assets/images/RWTH.png" alt="RWTH" class="img-responsive, pull-right" /></p>
 
-![](../assets/images/.png){:class="img-responsive, pull-right" :alt=""}
+<h1 id="bikeman">Bikeman</h1>
 
-# Bikeman 
-
-Bikeman is a CMS (abbr.: Central Management System) and implements a protocol.
+<p>Bikeman is a CMS (abbr.: Central Management System) and implements a protocol.
 The protocol is designed to be implemented as a RESTful Webservice with
 HTTP as the underlying data transfer protocol. The resources are represented
 in JSON data format.
 We require that all communications are done encrypted, e.g. using SSL/TLS
-or VPN.	
+or VPN.</p>
 
-![](../assets/images/feature-bikesharing.jpg){:class="img-responsive, center-block" :alt=""}		
+<p><img src="../assets/images/feature-bikesharing.jpg" alt="Bikeman" class="img-responsive, center-block" /></p>
+
 </div>
 <hr />
 
 <div class="row">
-		---
-title: About IXSI  
-permalink: /about/ixsi/
-author_profile: false
-period: 2014 - 2016
-categories: Software
-research: [Mobility Broker, eConnect]
-holder: RWTH
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/splash-ixsi.png
-  cta_label: "<i class="fa fa-download"></i> IXSI Github Repository"
-  cta_url: "https://github.com/RWTH-i5-IDSG/ixsi"
-  caption:
----
+		<p><img src="../assets/images/RWTH.png" alt="RWTH" class="img-responsive, pull-right" /></p>
 
-[![Build Status](https://travis-ci.org/RWTH-i5-IDSG/ixsi.svg)](https://travis-ci.org/RWTH-i5-IDSG/ixsi)
+<h1 id="ixsi">IXSI</h1>
 
-
-
-IXSI is a interface for exchanging information  between a Travel Information System and a Ride Sharing System (Carsharing, Bikesharing).
-
-IXSI is currently still under development and the API is not final.
-
-precompiled pdfs are available under (automatically generated):
-
-
-[https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect.pdf](https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect.pdf) (German version)
-
-[https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect-english-version.pdf](https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-econnect-english-version.pdf) (English version)
-
-
-The respective XML schema is available: [https://github.com/RWTH-i5-IDSG/ixsi/blob/econnect/xml/IXSI.xsd](https://github.com/RWTH-i5-IDSG/ixsi/blob/econnect/xml/IXSI.xsd).
-
-The repository contains the documentation written in TeX as well as the respective schemas for the different version.
-
-IXSI was initially developed for eConnect Germany, Hub Osnabrück by
-
-cantamen GmbH,
-HaCon Ing.-Ges. mbH,
-RWTH Aachen
-
-
-
-## Mobility Broker 
-The branch `mobilitybroker` contains non standard additions developed in project Mobility Broker. More Information about Mobility Broker is available: [http://mobility-broker.com/](http://mobility-broker.com/) (in german).
-
-[https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-mobilitybroker.pdf](https://rwth-i5-idsg.github.io/downloads/ixsi/ixsi-docu-mobilitybroker.pdf) (Mobilitybroker Schnittstelle basierend auf IXSI, German)
-
-The respective XML schema for branch `mobilitybroker` is available: [https://github.com/RWTH-i5-IDSG/ixsi/blob/mobilitybroker/xml/IXSI.xsd](https://github.com/RWTH-i5-IDSG/ixsi/blob/mobilitybroker/xml/IXSI.xsd).
-
-
-
-
-		
-</div>
-<hr />
-
-<div class="row">
-		---
-title: "IXSI"
-period: 2014 - 2016
-categories: Software
-research: [Mobility Broker, eConnect]
-holder: RWTH
----
-
-![](../assets/images/.png){:class="img-responsive, pull-right" :alt=""}
-
-# 
-
-Aim of this interface specification is the information exchange of information systems for rentals vehicles with travel information systems.
+<p>Aim of this interface specification is the information exchange of information systems for rentals vehicles with travel information systems.
 The reason for the information exchange is the requirement of creating intermodal travel chains combining rental services and public transport.
 IXSI defines an asynchronous or synchronous data exchange of station information, vehicle information, availabilities, bookings and prices.
-Therefore IXSI defines: 
+Therefore IXSI defines:</p>
 
-- A Role Model
-- A Service hierarchy of different qualities of information exchange
-- Interaction sequences to explain the order of messages between the partners based on the different service levels
-- The data model
-- Recommendations for the use of specific technologies for the data exchange and parsing
-- Tables of allowed values for enumerations
+<ul>
+  <li>A Role Model</li>
+  <li>A Service hierarchy of different qualities of information exchange</li>
+  <li>Interaction sequences to explain the order of messages between the partners based on the different service levels</li>
+  <li>The data model</li>
+  <li>Recommendations for the use of specific technologies for the data exchange and parsing</li>
+  <li>Tables of allowed values for enumerations</li>
+</ul>
 
-![](../assets/images/ixsi.jpg){:class="img-responsive, center-block" :alt=""}		
+<p><img src="../assets/images/ixsi.jpg" alt="IXSI" class="img-responsive, center-block" /></p>
+
 </div>
 <hr />
 
 <div class="row">
-		---
-title: "Steckdosen Verwaltung"
-period: 2014 - 2016
-categories: Software
-research: [eConnect]
-holder: RWTH
----
+		<p><img src="../assets/images/RWTH.png" alt="RWTH" class="img-responsive, pull-right" /></p>
 
-![RWTH](../assets/images/RWTH.png){:class="img-responsive, pull-right" :alt="RWTH"}
-
-# SteVe
-SteVe (abbr. for **Ste**ckdosen **Ve**rwaltung, engl.: socket administration) manages customer and charging station data.
+<h1 id="steve">SteVe</h1>
+<p>SteVe (abbr. for <strong>Ste</strong>ckdosen <strong>Ve</strong>rwaltung, engl.: socket administration) manages customer and charging station data.
 Steve supports RFID-Cards for authentification processes between customers and charging stations.
 The communication protocol has been implemented using OCPP (Open Charge Point Protocol).
 It is a Web application designed to run under Apache Tomcat and consists of multiple Java servlets. 
-It uses the Apache [CXF framework](http://cxf.apache.org/) for creating and receiving SOAP messages.
+It uses the Apache <a href="http://cxf.apache.org/">CXF framework</a> for creating and receiving SOAP messages.
 Moreover, CXF supports Web Services Addressing.
-SteVe was tested successfully in operation.
+SteVe was tested successfully in operation.</p>
 
-![SteVe](../assets/images/steve.png){:class="img-responsive", center-block" :alt="SteVe"}
-		
+<p><img src="../assets/images/steve.png" alt="SteVe" class="img-responsive&quot;, center-block" /></p>
+
 </div>
 <hr />
 
