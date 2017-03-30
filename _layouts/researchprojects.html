@@ -53,7 +53,9 @@
                         <h1>{{ researchProject.title }}</h1>
                         </p>
                         {{ researchProject.content | markdownify | truncatewords: 80 }}
-                        <a href="{{ researchProject.url }}" class="btn, pull-right">Read more</a>
+                        <div class="text-right">
+                            <a href="{{ researchProject.url }}" class="btn">Read more</a>
+                        </div>
                     </section>
                     {% endif %}
                     {% endfor %}
