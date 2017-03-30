@@ -53,7 +53,7 @@
                             <h1>{{ softwareProject.title }}</h1>
                          </p>
                          {{ softwareProject.content | markdownify | truncatewords: 80 }}
-                         <a href="{{ softwareProject.url }}" class="btn ">Read more</a>
+                         <a href="{{ softwareProject.url }}" class="btn, pull-right">Read more</a>
                 {% endif %}
                 {% endfor %}
                     </section>

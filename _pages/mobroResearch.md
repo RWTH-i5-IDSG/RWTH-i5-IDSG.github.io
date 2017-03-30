@@ -1,5 +1,6 @@
 ---
 title: "Mobility Broker"
+permalink: /about/mobro/
 period: 2014 - 2016
 categories: Research
 software: [IXSI, Bikeman]
@@ -12,4 +13,4 @@ The front-end of the project is a mobile application, which allows customers to 
 The foundation of Mobility Broker is a integrated mobility concept for intermodality. 
 This mobility concept particularly focuses on the first and the last mile of travel chains and integrates electro mobility.
 
-![{{ page.title }}](../assets/images/mobro.svg){:class="img-responsive" :alt="{{ page.title }}"}
+![{{ page.title }}]({{site.data.global.base_url}}/assets/images/mobro.svg){:class="img-responsive" :alt="{{ page.title }}"}

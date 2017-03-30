@@ -1,5 +1,6 @@
 ---
 title: "Bikeman"
+permalink: /about/bikeman/
 period: 2014 - 2016
 categories: Software
 research: [Mobility Broker]
@@ -13,4 +14,4 @@ in JSON data format.
 We require that all communications are done encrypted, e.g. using SSL/TLS
 or VPN.	
 
-![{{ page.title }}](../assets/images/feature-bikesharing.jpg){:class="img-responsive, center-block" :alt="{{ page.title }}"}
+![{{ page.title }}]({{site.data.global.base_url}}/assets/images/feature-bikesharing.jpg){:class="img-responsive, center-block" :alt="{{ page.title }}"}
