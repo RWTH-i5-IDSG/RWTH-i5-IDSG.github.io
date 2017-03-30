@@ -1,8 +1,6 @@
 ---
 permalink: /softwareprojects/
-layout: softwareproject
-sidebar:
-  nav: "software"
+layout: softwareprojects
 ---
 
 {% for softwareProject in site.pages %}

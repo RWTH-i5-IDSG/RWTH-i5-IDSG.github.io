@@ -1,8 +1,6 @@
 ---
 permalink: /researchprojects/
-layout: researchproject
-sidebar:
-  nav: "research"
+layout: researchprojects
 ---
 
 {% for researchProject in site.pages %}

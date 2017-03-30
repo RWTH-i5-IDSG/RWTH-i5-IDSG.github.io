@@ -1,8 +1,11 @@
 ---
-title: About IXSI  
+title: IXSI
 permalink: /about/ixsi/
 author_profile: false
-
+period: 2014 - 2016
+categories: Software
+research: [Mobility Broker, eConnect]
+holder: RWTH
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash-ixsi.png

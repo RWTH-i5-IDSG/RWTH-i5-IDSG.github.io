@@ -1,0 +1,64 @@
+{% include header.html %}
+<div class="lead col">
+    <div id="main" role="main">
+        <div class="sidebar sticky">
+            <nav class="nav__list" id="navbar">
+                <input id="ac-toc" name="accordion-toc" type="checkbox" />
+                <label for="ac-toc">Toggle Menu</label>
+                <ul class="nav__items">
+                    {% assign jekyllPages = site.pages | sort: 'period' | reverse %}
+                    {% for researchProject in jekyllPages %}
+                    {% if researchProject.categories == "Research" %}
+                    <li>
+                        <span class="nav__sub-title"><a href="#{{ researchProject.title }}">{{ researchProject.title }}</a></span>
+                        <ul>
+                            <li>Software:
+                                {% for softwareProject in researchProject.software %}
+                                    {% assign moreJekyllPages = site.pages | sort: 'period' | reverse %}
+                                    {% for project in moreJekyllPages %}
+                                    {% if project.categories == "Software" and project.title contains softwareProject %}
+                                    <br> - <a href="{{ project.url }}" class=""> {{ softwareProject }}</a>
+                                    {% endif%}
+                                    {% endfor %}
+                                {% endfor %}
+                            </li>
+                            <li>Period: {{ researchProject.period }}</a></li>
+                            <li>Holder: {{ researchProject.holder }}</a></li>          
+                        </ul>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+        <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="page__inner-wrap" id="content" data-spy="scroll" data-target="#navbar">
+                <section class="page__content" itemprop="text">
+                    {% assign jekyllPages = site.pages | sort: 'period' | reverse %}
+                    {% for researchProject in jekyllPages %}
+                    {% if researchProject.categories == "Research" %}
+                    <section id="{{ researchProject.title }}">
+                        {% if researchProject.holder == "RWTH" %}
+                        {% assign holderImage = "../assets/images/RWTH.png" %}
+                        {% endif %}
+                        
+                        {% if researchProject.holder == "FIT" %}
+                        {% assign holderImage = "../assets/images/FITsmall.png" %}
+                        {% endif %}
+                        
+                        <p>
+                        
+                        
+                        <img src = "{{ holderImage }}" alt="{{ researchProject.holder }}" class="pull-right">
+                        <h1>{{ researchProject.title }}</h1>
+                        </p>
+                        {{ researchProject.content | markdownify | truncatewords: 80 }}
+                        <a href="{{ researchProject.url }}" class="btn ">Read more</a>
+                    </section>
+                    {% endif %}
+                    {% endfor %}
+                </section>
+            </div>
+        </article>
+    </div>
+    {% include footer.html %}

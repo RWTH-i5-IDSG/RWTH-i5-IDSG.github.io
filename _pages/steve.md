@@ -1,7 +1,11 @@
 ---
-title: About SteVe  
+title: SteVe
 permalink: /about/steve/
 author_profile: false
+period: 2014 - 2016
+categories: Software
+research: [eConnect]
+holder: RWTH
 sidebar:
   - title: ""
     image: /assets/images/feature-steve.png
